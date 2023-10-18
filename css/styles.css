@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(150deg, #9ea3ad, #805d5d);
+}
+
+a {
+    color: #161212;
+  }
+
+  h1 {
+    text-align: center;
+
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }

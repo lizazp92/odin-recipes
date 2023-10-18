@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(150deg, #9ea3ad, #805d5d);
+  }
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  .gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  a {
+    color: #290e2c;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .center {
+    text-align: center;
+  }
+  
+  ul {
+    display: inline;
+    margin: 20px auto;
+    
+  }
+  
